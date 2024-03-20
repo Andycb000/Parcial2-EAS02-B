@@ -5,8 +5,10 @@
 class Rectangulo:public Figura
 {
     public:
-    Rectangulo():Figura(){
-        
+    Rectangulo(int b, int h):Figura(b,h)
+    {
+        int a= 2*b + 2*h;
+        setPerimetro(a);
     };
 
 };

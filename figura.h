@@ -9,6 +9,7 @@ private:
 public:
     Figura();
     Figura(int b, int h);
+    Figura(int h);
     void setPerimetro(float a);
     float getPerimetro();
 };

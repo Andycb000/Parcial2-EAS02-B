@@ -18,6 +18,11 @@ Figura::Figura(int b, int h)
     this->h=h;
 }
 
+Figura::Figura(int h)
+{
+    this->h=h;
+}
+
 void Figura::setPerimetro(float a)
 {
     this->p=a;

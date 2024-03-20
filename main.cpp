@@ -1,8 +1,12 @@
+#include "figura.h"
+#include "cuadrado.h"
+#include "circulo.h"
+#include "rectangulo.h"
 #include <iostream>
 using namespace std;
 
-int main () {
-
+int main () 
+{
     Cuadrado s(5);
     cout << s.getPerimetro() << endl; // 20
     Rectangulo r(5,10);

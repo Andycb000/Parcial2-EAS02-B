@@ -5,8 +5,10 @@
 class Circulo:public Figura
 {
     public:
-    Circulo():Figura(){
-    
+    Circulo(int h):Figura(h)
+    {
+        int a= 3.14*2*h;
+        setPerimetro(a);
     };
 
 };
